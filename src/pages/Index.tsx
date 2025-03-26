@@ -20,7 +20,7 @@ const Index = () => {
     {
       id: 'urban-loft',
       title: 'Urban Loft',
-      description: 'Experience downtown living in this stylish loft apartment featuring exposed brick walls, high ceilings, and industrial-inspired décor. Steps away from the city's best restaurants, shops, and entertainment.',
+      description: "Experience downtown living in this stylish loft apartment featuring exposed brick walls, high ceilings, and industrial-inspired décor. Steps away from the city's best restaurants, shops, and entertainment.",
       image: 'https://images.unsplash.com/photo-1565538810643-b5bdb714032a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
     }
   ];
