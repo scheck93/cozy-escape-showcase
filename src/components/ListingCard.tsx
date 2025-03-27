@@ -24,8 +24,9 @@ const ListingCard = ({ id, title, description, image, delay = 0 }: ListingCardPr
   }, [delay]);
 
   return (
-    <div 
-      className={`listing-card opacity-0 transform translate-y-8 transition-all duration-700 ease-apple ${
+    <Link 
+      to={`/listing/${id}`}
+      className={`listing-card block opacity-0 transform translate-y-8 transition-all duration-700 ease-apple hover:shadow-sm ${
         visible ? 'opacity-100 translate-y-0' : ''
       }`}
     >
@@ -46,15 +47,14 @@ const ListingCard = ({ id, title, description, image, delay = 0 }: ListingCardPr
       <div className="p-6 md:p-8">
         <h3 className="text-2xl font-serif mb-3 text-hms-dark-green">{title}</h3>
         <p className="text-gray-600 mb-6 line-clamp-3">{description}</p>
-        <Link 
-          to={`/listing/${id}`}
-          className="inline-flex items-center text-hms-medium-green font-medium transition-all duration-300 hover:text-hms-dark-green group"
+        <div 
+          className="inline-flex items-center text-hms-medium-green font-medium transition-all duration-300 group"
         >
           View More 
           <ChevronRight size={18} className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
-        </Link>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

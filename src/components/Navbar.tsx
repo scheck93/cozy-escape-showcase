@@ -41,7 +41,7 @@ const Navbar = () => {
           aria-label="Home Made Suites - Home"
         >
           <img 
-            src="/lovable-uploads/de01b22f-72e4-4744-97bf-3574aca15c3a.png" 
+            src="/images/logo.png" 
             alt="Home Made Suites Logo" 
             className="h-10 md:h-12"
           />
@@ -50,9 +50,9 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <NavLink to="/" label="Home" />
-          <NavLink to="/listing/mountain-retreat" label="Mountain Retreat" />
-          <NavLink to="/listing/urban-loft" label="Urban Loft" />
-          <NavLink to="/contact" label="Contact" />
+          <NavLink to="/listing/mountain-retreat" label="West Point Apt 1" />
+          <NavLink to="/listing/urban-loft" label="West Point Apt 2" />
+          <NavLink to="/contact" label="Contact & Booking" />
         </nav>
 
         {/* Mobile Menu Button */}
@@ -73,8 +73,8 @@ const Navbar = () => {
       >
         <nav className="flex flex-col px-6 py-4 space-y-4">
           <NavLink to="/" label="Home" mobile />
-          <NavLink to="/listing/mountain-retreat" label="Mountain Retreat" mobile />
-          <NavLink to="/listing/urban-loft" label="Urban Loft" mobile />
+          <NavLink to="/listing/mountain-retreat" label="West Point Apt #1" mobile />
+          <NavLink to="/listing/urban-loft" label="West Point Apt #2" mobile />
           <NavLink to="/contact" label="Contact" mobile />
         </nav>
       </div>

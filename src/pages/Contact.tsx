@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="container mx-auto px-6 md:px-10">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h1 className="text-4xl md:text-5xl text-hms-dark-green font-bold mb-6">
-              Contact Your Host
+              Contact Home Made Suites
             </h1>
             <p className="text-lg text-gray-700 mb-4">
               Have questions or special requests? We're here to help make your stay perfect.
@@ -77,6 +77,13 @@ const Contact = () => {
                     <p className="text-gray-700 mb-4">
                       For direct bookings, we accept payments through Venmo.
                     </p>
+                    <div className="mb-4">
+                      <img 
+                        src="/images/venmo.jpg" 
+                        alt="Venmo QR Code" 
+                        className="max-w-[200px] rounded-md shadow-sm"
+                      />
+                    </div>
                     <div className="bg-[#008CFF] text-white px-4 py-3 rounded-md inline-flex items-center">
                       <span className="font-bold">@HomeMadeSuites</span>
                     </div>
@@ -91,11 +98,13 @@ const Contact = () => {
                       For direct bookings, please review and sign our standard rental agreement.
                     </p>
                     <a 
-                      href="#" 
+                      href="https://www.jotform.com/sign/250840610128044/invite/01jq8b5p2xa53bd78007b597f9?signEmbed=1" 
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center text-hms-medium-green hover:text-hms-dark-green transition-colors duration-300"
                     >
                       <Download size={18} className="mr-2" />
-                      Download Rental Agreement
+                      Sign Rental Agreement
                     </a>
                   </div>
                 </div>

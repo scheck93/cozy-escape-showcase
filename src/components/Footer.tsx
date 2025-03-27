@@ -11,11 +11,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Logo and Intro */}
           <div className="space-y-4">
-            <img 
-              src="/lovable-uploads/de01b22f-72e4-4744-97bf-3574aca15c3a.png" 
-              alt="Home Made Suites Logo" 
-              className="h-16 invert"
-            />
+          <img 
+            src="/images/logo.png" 
+            alt="Home Made Suites Logo" 
+            className="h-10 md:h-12"
+          />
             <p className="text-gray-300 max-w-xs">
               Discover our cozy retreats designed with comfort and style in mind, making your stay feel just like home.
             </p>
@@ -38,7 +38,7 @@ const Footer = () => {
                   to="/listing/mountain-retreat" 
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
-                  Mountain Retreat
+                  West Point Apt 1
                 </Link>
               </li>
               <li>
@@ -46,7 +46,7 @@ const Footer = () => {
                   to="/listing/urban-loft" 
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
-                  Urban Loft
+                  West Point Apt 2
                 </Link>
               </li>
               <li>
@@ -54,18 +54,8 @@ const Footer = () => {
                   to="/contact" 
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
-                  Contact Us
+                  Contact & Bookings
                 </Link>
-              </li>
-              <li>
-                <a 
-                  href="https://www.airbnb.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-white transition-colors duration-300"
-                >
-                  Book on Airbnb
-                </a>
               </li>
             </ul>
           </div>
@@ -102,14 +92,7 @@ const Footer = () => {
             &copy; {currentYear} Home Made Suites. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
-            <a 
-              href="https://www.airbnb.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors duration-300 text-sm"
-            >
-              Find us on Airbnb
-            </a>
+
           </div>
         </div>
       </div>
